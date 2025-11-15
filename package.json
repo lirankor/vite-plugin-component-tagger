@@ -1,6 +1,6 @@
 {
   "name": "@lirankor/vite-plugin-component-tagger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Vite plugin that adds data attributes to JSX elements for debugging and development purposes",
   "type": "module",
   "main": "dist/index.js",
