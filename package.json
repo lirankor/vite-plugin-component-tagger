@@ -1,0 +1,59 @@
+{
+  "name": "@lirankor/vite-plugin-component-tagger",
+  "version": "1.0.2",
+  "description": "A Vite plugin that adds data attributes to JSX elements for debugging and development purposes",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "vite-plugin",
+    "react",
+    "jsx",
+    "tsx",
+    "debugging",
+    "development", 
+    "devtools",
+    "component",
+    "tagging",
+    "data-attributes",
+    "inspector",
+    "dom-debugging"
+  ],
+  "author": "Liran Koren",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lirankor/vite-plugin-component-tagger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lirankor/vite-plugin-component-tagger/issues"
+  },
+  "homepage": "https://github.com/lirankor/vite-plugin-component-tagger#readme",
+  "peerDependencies": {
+    "vite": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.2"
+  }
+}
