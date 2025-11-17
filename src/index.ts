@@ -30,7 +30,7 @@ export function componentTagger(options: ComponentTaggerOptions = {}): Plugin {
     
     buildEnd() {
       if (totalFilesProcessed > 0) {
-        console.log(`🏷️ Component Tagger: Tagged ${totalTaggedElements} elements across ${totalFilesProcessed} files`);
+        console.log(`Component Tagger: Tagged ${totalTaggedElements} elements across ${totalFilesProcessed} files`);
       }
     },
     
